@@ -19,7 +19,6 @@
 				<a href="http://t3-framework.org/"><img src="http://joomlart.s3.amazonaws.com/images/jat3v3-documents/message-installation/logo.png" alt="some_text" width="300" height="99"></a>
 				<h4><a href="http://t3-framework.org/" title="">Home</a> | <a href="http://demo.t3-framework.org/" title="">Demo</a> | <a href="http://t3-framework.org/documentation" title="">Document</a> | <a href="https://github.com/t3framework/t3/blob/master/CHANGELOG.md" title="">Changelog</a></h4>
 		<p> </p>
-		<p>Copyright 2004 - 2016 <a href='http://www.joomlart.com/' title='Visit Joomlart.com!'>JoomlArt.com</a>.</p>
 		</div>
      <style>table.adminform{width: 100%;}</style>
 	 </div>
@@ -31,6 +30,6 @@
         <file type="template" id="t3_bs3_blank" client="site">tpl_t3_bs3_blank</file>
     </files>
     <updateservers>
-        <server type="extension" priority="1" name="T3 Framework Update"><![CDATA[http://www.t3-framework.org/update.xml]]></server>
+        <server type="extension" priority="1" name="T3 Framework Update"><![CDATA[https://raw.githubusercontent.com/themexpert/t3/master/manifest.xml]]></server>
     </updateservers>
 </extension>
