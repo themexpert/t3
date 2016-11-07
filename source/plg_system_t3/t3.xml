@@ -38,6 +38,16 @@
 	</languages>
 	<config>
 		<fields name="params">
+			<fieldset name="basic" label="BASIC">
+				<field name="disable_local" type="radio" class="btn-group" 
+					label="T3_FIELDS_DISABLE_LOCAL_LABEL"
+					description="T3_FIELDS_DISABLE_LOCAL_DESC"
+					default="0"
+				>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+			</fieldset>
 		</fields>
 	</config>
 	<updateservers>
