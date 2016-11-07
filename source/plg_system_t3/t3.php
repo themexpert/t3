@@ -37,7 +37,12 @@ class plgSystemT3 extends JPlugin
 		if ($app->isAdmin()) {
 			return;
 		}
-
+		
+		if($this->params->get('disable_local', 0))
+		{
+			define('T3_LOCAL_DISABLED', TRUE);
+		}
+		
 		$input = $app->input;
 
 		if($input->getCmd('themer', 0) && ($t3tmid = $input->getCmd('t3tmid', 0))){
