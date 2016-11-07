@@ -31,16 +31,17 @@ class plgSystemT3 extends JPlugin
 		include_once dirname(__FILE__) . '/includes/core/defines.php';
 		include_once dirname(__FILE__) . '/includes/core/t3.php';
 		include_once dirname(__FILE__) . '/includes/core/bot.php';
-
+		
+		// Apply disable local for development
+		if($this->params->get('disable_local', 0))
+		{
+			define('T3_LOCAL_DISABLED', TRUE);
+		}
+		
 		//must be in frontend
 		$app = JFactory::getApplication();
 		if ($app->isAdmin()) {
 			return;
-		}
-		
-		if($this->params->get('disable_local', 0))
-		{
-			define('T3_LOCAL_DISABLED', TRUE);
 		}
 		
 		$input = $app->input;
