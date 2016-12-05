@@ -5,6 +5,28 @@
         <element>pkg_T3</element>
         <type>package</type>
         <client_id>0</client_id>
+        <version>2.6.2</version>
+        <infourl title="T3 Frameowrk 2.6.2">http://t3-framework.org</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">
+                <![CDATA[https://github.com/themexpert/t3/archive/v2.6.2.zip]]>
+            </downloadurl>
+        </downloads>
+        <tags>
+            <tag>stable</tag>
+        </tags>
+        <maintainer>T3 Framework</maintainer>
+        <maintainerurl>http://t3-framework.org/</maintainerurl>
+        <section>Updates</section>
+        <targetplatform name="joomla" version="3.[2345679]" />
+        <folder/>
+    </update>
+    <update>
+        <name>T3 Framework Package</name>
+        <description>T3 Framework update</description>
+        <element>pkg_T3</element>
+        <type>package</type>
+        <client_id>0</client_id>
         <version>2.6.0</version>
         <infourl title="T3 Frameowrk 2.6.0">http://t3-framework.org</infourl>
         <downloads>
