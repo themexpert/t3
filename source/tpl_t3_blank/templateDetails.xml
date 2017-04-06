@@ -111,9 +111,4 @@
 			
 		</fields>
 	</config>
-
-	<updateservers>
-		<server type="collection">http://update.joomlart.com/service/tracking/list.xml</server>
-	</updateservers>	
-
 </extension>
