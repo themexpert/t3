@@ -26,23 +26,23 @@
 }
 .t3-logo,
 .t3-logo-color {
-  background-image: url("//joomlart.s3.amazonaws.com/images/jat3v3-documents/logo-complete/t3logo-big-color.png");
+  background-image: url("//static.joomlart.com/images/jat3v3-documents/logo-complete/t3logo-big-color.png");
 }
 .t3-logo-small,
 .t3-logo-small.t3-logo-color {
-  background-image: url("//joomlart.s3.amazonaws.com/images/jat3v3-documents/logo-complete/t3logo-small-color.png");
+  background-image: url("//static.joomlart.com/images/jat3v3-documents/logo-complete/t3logo-small-color.png");
 }
 .t3-logo-dark {
-  background-image: url("//joomlart.s3.amazonaws.com/images/jat3v3-documents/logo-complete/t3logo-big-dark.png");
+  background-image: url("//static.joomlart.com/images/jat3v3-documents/logo-complete/t3logo-big-dark.png");
 }
 .t3-logo-small.t3-logo-dark {
-  background-image: url("//joomlart.s3.amazonaws.com/images/jat3v3-documents/logo-complete/t3logo-small-dark.png");
+  background-image: url("//static.joomlart.com/images/jat3v3-documents/logo-complete/t3logo-small-dark.png");
 }
 .t3-logo-light {
-  background-image: url("//joomlart.s3.amazonaws.com/images/jat3v3-documents/logo-complete/t3logo-big-light.png");
+  background-image: url("//static.joomlart.com/images/jat3v3-documents/logo-complete/t3logo-big-light.png");
 }
 .t3-logo-small.t3-logo-light {
-  background-image: url("//joomlart.s3.amazonaws.com/images/jat3v3-documents/logo-complete/t3logo-small-light.png");
+  background-image: url("//static.joomlart.com/images/jat3v3-documents/logo-complete/t3logo-small-light.png");
 }
 @media (max-width: 767px) {
   .logo-control .logo-img-sm {
@@ -1266,6 +1266,18 @@ ul.latestusers li {
 }
 .tags {
   margin-bottom: 20px;
+}
+.fields-container dd {
+  border-bottom: 1px dotted #202020;
+  padding: 6.66666667px 0;
+}
+.fields-container dd .field-label {
+  display: inline-block;
+  font-weight: bold;
+  padding-right: 20px;
+}
+.fields-container dd:last-child {
+  border-bottom: 0;
 }
 .article-footer {
   color: #5a5a5a;
