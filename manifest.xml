@@ -19,7 +19,7 @@
         <maintainer>T3 Framework</maintainer>
         <maintainerurl>http://t3-framework.org/</maintainerurl>
         <section>Updates</section>
-        <targetplatform name="joomla" version="3.[2345679]" />
+        <targetplatform name="joomla" version="3.[23456789]" />
         <folder/>
     </update>
     <update>
